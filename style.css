@@ -1,4 +1,5 @@
 :root {
+--accent-soft: #E3E8FB;
     --bg: #F2F4F8;
     --ink: #0F1B33;
     --muted: #4B5A75;
@@ -111,6 +112,24 @@ h2 {
 
 .hero {
     padding: 5rem 0 4rem;
+position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, var(--bg) 0%, var(--accent-soft) 100%);
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+    background: var(--accent);
+    opacity: 0.12;
+    top: -160px;
+    right: -120px;
+}
+
+.hero .wrap {
+    position: relative;
 }
 
 .hero h1 {
