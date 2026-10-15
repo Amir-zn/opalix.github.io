@@ -123,7 +123,7 @@ position: relative;
     height: 480px;
     border-radius: 50%;
     background: var(--accent);
-    opacity: 0.12;
+    opacity: 0.25;
     top: -160px;
     right: -120px;
 }
