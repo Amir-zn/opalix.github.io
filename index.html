@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Opalix Studio</title>
+    <meta name="description" content="Opalix Studio builds fast, responsive landing pages and small business websites, and turns Figma or PSD designs into clean code.">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="wrap bar">
+            <a href="#">Opalix Studio</a>
+            <nav aria-label="Main">
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="wrap">
+                <h1>Create your desires</h1>
+                <p>In here, we build websites and build it beautiful that you can ask for modification anytime you like!
+                    Besides, we can professionally edit your photos. the only thing that you should do is describe it.
+                </p>
+                <a class="btn" href="#contact">Get a quote</a>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="wrap">
+                <h2>Services</h2>
+                <div class="service">
+                    <h3>What we do...</h3>
+                    <p>A lot of hard work that make your project amazing.</p>
+                </div>
+
+                <div class="service">
+                    <h3>How we do...</h3>
+                    <p>We use the greatest techniques for coding!</p>
+                </div>
+
+                <div class="service">
+                    <h3>When we do...</h3>
+                    <p>Speed matters! We try to deliver your orders as fast as we can.</p>
+                </div>
+
+            </div>
+        </section>
+        <<section id="process">
+            <div class="wrap">
+                <h2>How it works</h2>
+                <ol class="steps">
+                    <li>Submit your order.</li>
+                    <li>We do the process.</li>
+                    <li>You'll get your project.</li>
+                </ol>
+            </div>
+            </section>
+            <section id="contact">
+                <div class="wrap">
+                    <h2>Book your order.</h2>
+                    <form action="https://formspree.io/f/meaepwvr" method="POST">
+                        <label>Your name
+                            <input name="name" autocomplete="name" required>
+                        </label>
+                        <label>Email
+                            <input name="email" type="email" autocomplete="email" required>
+                        </label>
+                        <label>Description
+                            <textarea name="description" required></textarea>
+                        </label>
+                        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" hidden>
+                        <button class="btn" type="submit">Send</button>
+                    </form>
+                </div>
+
+            </section>
+    </main>
+    <footer>
+    <div class="wrap">
+        <p>© 2026 Opalix Studio</p>
+    </div>
+</footer>
+</body>
+
+</html>
